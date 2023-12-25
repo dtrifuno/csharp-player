@@ -1,0 +1,30 @@
+﻿
+string name = "Skopje";
+char startsWith = 'S';
+byte areaCode = 2;
+sbyte rank = 1;
+short elevation = 240;
+ushort distanceFromSeaLevel = 240;
+int temperature = 15;
+uint zipCode = 1000;
+ulong population = 526_502;
+long populationChange = 20_343; 
+float area = 571.46F;
+double density = 1400;
+decimal gdp = 3828100000M;
+bool capital = true;
+
+Console.WriteLine("I come from " + name + ".");
+Console.WriteLine("It starts with an " + startsWith + ".");
+Console.WriteLine("The area code is " + areaCode + ".");
+Console.WriteLine("It is number " + rank + " by size in my country.");
+Console.WriteLine("Its elevation is " + elevation + " m.");
+Console.WriteLine("That is " + distanceFromSeaLevel + " m away from sea level.");
+Console.WriteLine("The average temperature is " + temperature + "°C.");
+Console.WriteLine("The zip code is " + zipCode + ".");
+Console.WriteLine("It has a population of " + population + ".");
+Console.WriteLine("That's a change of " + populationChange + " since last year.");
+Console.WriteLine("It covers an area of " + area + " km2.");
+Console.WriteLine("It has a population density of " + density + "/km2.");
+Console.WriteLine("It has a GDP of $" + gdp + ".");
+Console.WriteLine("Is it the capital? " + capital);
